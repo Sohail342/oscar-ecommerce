@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  solr:
+    image: solr:8
+    container_name: solr-container
+    ports:
+      - "8983:8983"
+    volumes:
+      - ./solr-data:/var/solr
+    entrypoint:
+      - docker-entrypoint.sh
+      - solr-precreate
+      - fogshop
+      - /var/solr/data/fogshop
