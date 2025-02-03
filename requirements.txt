@@ -23,6 +23,7 @@ et_xmlfile==2.0.0
 factory-boy==3.2.1
 Faker==35.2.0
 filetype==1.2.0
+gunicorn==23.0.0
 idna==3.10
 l18n==2021.3
 laces==0.1.2
@@ -32,6 +33,7 @@ phonenumbers==8.13.54
 pillow==11.1.0
 pillow_heif==0.21.0
 purl==1.6
+pycountry==24.6.1
 pysolr==3.10.0
 python-dateutil==2.9.0.post0
 pytz==2025.1
